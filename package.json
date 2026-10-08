@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev -- --host 0.0.0.0",
+    "start": "npm run server"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0"
+  }
+}
